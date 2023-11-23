@@ -1,41 +1,23 @@
-.game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-.bird {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
-    background-color: #333;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  user-select: none;
 }
-
-.pipe {
-    position: absolute;
-    left: 50%;
-    top: calc(50% + 20px);
-    transform: translateX(-50%);
-    width: 80px;
-    height: 20px;
-    background-color: #666;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+header {
+  margin: 0 auto;
+  width: 431px;
 }
-
-.score {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    position: absolute;
-    left: 10px;
-    top: 10px;
+h1 {
+  background: url("https://i.ibb.co/Q9yv5Jk/flappy-bird-set.png") 0% 340px;
+  padding: 1.2rem 0;
+  margin: 0;
+}
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 6px;
+  background: #5EE270;
 }
